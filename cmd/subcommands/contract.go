@@ -6,12 +6,12 @@ import (
 	"io/ioutil"
 	"math"
 
-	"github.com/kavanahuang/gotron-sdk/pkg/address"
-	"github.com/kavanahuang/gotron-sdk/pkg/client/transaction"
-	"github.com/kavanahuang/gotron-sdk/pkg/common"
-	"github.com/kavanahuang/gotron-sdk/pkg/contract"
-	"github.com/kavanahuang/gotron-sdk/pkg/keystore"
-	"github.com/kavanahuang/gotron-sdk/pkg/store"
+	"github.com/kavanahuang/tron-sdk/pkg/address"
+	"github.com/kavanahuang/tron-sdk/pkg/client/transaction"
+	"github.com/kavanahuang/tron-sdk/pkg/common"
+	"github.com/kavanahuang/tron-sdk/pkg/contract"
+	"github.com/kavanahuang/tron-sdk/pkg/keystore"
+	"github.com/kavanahuang/tron-sdk/pkg/store"
 
 	"github.com/spf13/cobra"
 )

@@ -7,9 +7,9 @@ import (
 
 	"github.com/fatih/structs"
 	"github.com/golang/protobuf/ptypes"
-	"github.com/kavanahuang/gotron-sdk/pkg/address"
-	"github.com/kavanahuang/gotron-sdk/pkg/common"
-	"github.com/kavanahuang/gotron-sdk/pkg/proto/core"
+	"github.com/kavanahuang/tron-sdk/pkg/address"
+	"github.com/kavanahuang/tron-sdk/pkg/common"
+	"github.com/kavanahuang/tron-sdk/pkg/proto/core"
 	"github.com/spf13/cobra"
 )
 

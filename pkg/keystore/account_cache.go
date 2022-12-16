@@ -29,7 +29,7 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/kavanahuang/gotron-sdk/pkg/address"
+	"github.com/kavanahuang/tron-sdk/pkg/address"
 	"go.uber.org/zap"
 )
 

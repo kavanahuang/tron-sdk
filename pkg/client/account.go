@@ -6,11 +6,11 @@ import (
 	"math/big"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/kavanahuang/gotron-sdk/pkg/account"
-	"github.com/kavanahuang/gotron-sdk/pkg/address"
-	"github.com/kavanahuang/gotron-sdk/pkg/common"
-	"github.com/kavanahuang/gotron-sdk/pkg/proto/api"
-	"github.com/kavanahuang/gotron-sdk/pkg/proto/core"
+	"github.com/kavanahuang/tron-sdk/pkg/account"
+	"github.com/kavanahuang/tron-sdk/pkg/address"
+	"github.com/kavanahuang/tron-sdk/pkg/common"
+	"github.com/kavanahuang/tron-sdk/pkg/proto/api"
+	"github.com/kavanahuang/tron-sdk/pkg/proto/core"
 )
 
 // GetAccount from BASE58 address

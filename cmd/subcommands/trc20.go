@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/kavanahuang/gotron-sdk/pkg/address"
-	"github.com/kavanahuang/gotron-sdk/pkg/client/transaction"
-	"github.com/kavanahuang/gotron-sdk/pkg/common"
-	"github.com/kavanahuang/gotron-sdk/pkg/common/decimals"
-	"github.com/kavanahuang/gotron-sdk/pkg/keystore"
-	"github.com/kavanahuang/gotron-sdk/pkg/store"
+	"github.com/kavanahuang/tron-sdk/pkg/address"
+	"github.com/kavanahuang/tron-sdk/pkg/client/transaction"
+	"github.com/kavanahuang/tron-sdk/pkg/common"
+	"github.com/kavanahuang/tron-sdk/pkg/common/decimals"
+	"github.com/kavanahuang/tron-sdk/pkg/keystore"
+	"github.com/kavanahuang/tron-sdk/pkg/store"
 	"github.com/spf13/cobra"
 )
 

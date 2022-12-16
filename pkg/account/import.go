@@ -11,10 +11,10 @@ import (
 	"strings"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/kavanahuang/gotron-sdk/pkg/common"
-	"github.com/kavanahuang/gotron-sdk/pkg/keystore"
-	"github.com/kavanahuang/gotron-sdk/pkg/mnemonic"
-	"github.com/kavanahuang/gotron-sdk/pkg/store"
+	"github.com/kavanahuang/tron-sdk/pkg/common"
+	"github.com/kavanahuang/tron-sdk/pkg/keystore"
+	"github.com/kavanahuang/tron-sdk/pkg/mnemonic"
+	"github.com/kavanahuang/tron-sdk/pkg/store"
 	"github.com/mitchellh/go-homedir"
 )
 

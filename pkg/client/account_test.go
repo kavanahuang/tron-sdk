@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/kavanahuang/gotron-sdk/pkg/client"
+	"github.com/kavanahuang/tron-sdk/pkg/client"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 )

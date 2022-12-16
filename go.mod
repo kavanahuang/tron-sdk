@@ -1,4 +1,4 @@
-module github.com/kavanahuang/gotron-sdk
+module github.com/kavanahuang/tron-sdk
 
 go 1.18
 

@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/kavanahuang/gotron-sdk/pkg/common"
-	"github.com/kavanahuang/gotron-sdk/pkg/proto/api"
-	"github.com/kavanahuang/gotron-sdk/pkg/proto/core"
+	"github.com/kavanahuang/tron-sdk/pkg/common"
+	"github.com/kavanahuang/tron-sdk/pkg/proto/api"
+	"github.com/kavanahuang/tron-sdk/pkg/proto/core"
 )
 
 // GetAssetIssueByAccount list asset issued by account
@@ -127,7 +127,7 @@ func (g *GrpcClient) AssetIssue(from, name, description, abbr, urlStr string,
 			return nil, fmt.Errorf("create asset issue error: convert error: %v", err)
 		}
 		assetIssueContractFrozenSupply := new(core.
-			AssetIssueContract_FrozenSupply)
+		AssetIssueContract_FrozenSupply)
 		assetIssueContractFrozenSupply.FrozenAmount = amount
 		assetIssueContractFrozenSupply.FrozenDays = days
 		// add supply to contract

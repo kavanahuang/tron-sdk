@@ -7,12 +7,12 @@ import (
 	"time"
 
 	proto "github.com/golang/protobuf/proto"
-	"github.com/kavanahuang/gotron-sdk/pkg/client"
-	"github.com/kavanahuang/gotron-sdk/pkg/common"
-	"github.com/kavanahuang/gotron-sdk/pkg/keystore"
-	"github.com/kavanahuang/gotron-sdk/pkg/ledger"
-	"github.com/kavanahuang/gotron-sdk/pkg/proto/api"
-	"github.com/kavanahuang/gotron-sdk/pkg/proto/core"
+	"github.com/kavanahuang/tron-sdk/pkg/client"
+	"github.com/kavanahuang/tron-sdk/pkg/common"
+	"github.com/kavanahuang/tron-sdk/pkg/keystore"
+	"github.com/kavanahuang/tron-sdk/pkg/ledger"
+	"github.com/kavanahuang/tron-sdk/pkg/proto/api"
+	"github.com/kavanahuang/tron-sdk/pkg/proto/core"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/kavanahuang/gotron-sdk/pkg/proto/api"
+	"github.com/kavanahuang/tron-sdk/pkg/proto/api"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 )

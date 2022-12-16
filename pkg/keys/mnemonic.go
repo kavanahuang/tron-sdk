@@ -3,7 +3,7 @@ package keys
 import (
 	"fmt"
 	secp256k1 "github.com/btcsuite/btcd/btcec/v2"
-	"github.com/kavanahuang/gotron-sdk/pkg/keys/hd"
+	"github.com/kavanahuang/tron-sdk/pkg/keys/hd"
 	"github.com/tyler-smith/go-bip39"
 )
 
